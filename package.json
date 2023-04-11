@@ -1,0 +1,33 @@
+{
+  "name": "asteroids-game",
+  "version": "1.0.0",
+  "description": "A simple asteroids game using JavaScript/TypeScript.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/asteroids-game.git"
+  },
+  "keywords": [
+    "asteroids",
+    "game",
+    "javascript",
+    "typescript"
+  ],
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yourusername/asteroids-game/issues"
+  },
+  "homepage": "https://github.com/yourusername/asteroids-game#readme",
+  "dependencies": {
+    "typescript": "^4.5.2"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.7"
+  }
+}
