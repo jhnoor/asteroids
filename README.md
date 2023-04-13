@@ -1,67 +1,43 @@
-# Asteroids Game Repository
+# Project Title
 
-This repository contains the source code for a simple asteroids game written in JavaScript/TypeScript. The game features a ship that spawns in the middle of the screen, which can be controlled using the arrow keys to steer and propel. The game has a black background, white asteroids, and the ship is represented as an arrow.
+A brief description of the project, including the game's objective and gameplay.
 
 ## Table of Contents
 
-- [Getting Started](#getting-started)
-- [Prerequisites](#prerequisites)
 - [Installation](#installation)
-- [Running the Game](#running-the-game)
-- [Controls](#controls)
+- [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
 
-## Getting Started
-
-These instructions will help you set up the project on your local machine for development and testing purposes.
-
-### Prerequisites
-
-- Node.js (version 12 or higher)
-- NPM (version 6 or higher)
-
-### Installation
+## Installation
 
 1. Clone the repository:
+   ```
+   git clone https://github.com/your_username/project-title.git
+   ```
+2. Navigate to the project directory:
+   ```
+   cd project-title
+   ```
+3. Install the required dependencies:
+   ```
+   npm install
+   ```
 
-```bash
-git clone https://github.com/yourusername/asteroids-game.git
-```
+## Usage
 
-2. Change to the project directory:
+To run the game locally, follow these steps:
 
-```bash
-cd asteroids-game
-```
-
-3. Install the dependencies:
-
-```bash
-npm install
-```
-
-### Running the Game
-
-To run the game locally, execute the following command:
-
-```bash
-npm start
-```
-
-This will open the game in your default web browser.
-
-### Controls
-
-- Up Arrow: Accelerate
-- Left Arrow: Rotate left
-- Right Arrow: Rotate right
-- Spacebar: Shoot
+1. Start the development server:
+   ```
+   npm start
+   ```
+2. Open your browser and navigate to `http://localhost:3000` (or the appropriate port number).
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
+Contributions are welcome! Please read our [contributing guidelines](CONTRIBUTING.md) to get started.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the [MIT License](LICENSE.md).
